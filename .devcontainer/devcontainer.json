@@ -9,7 +9,8 @@
       "extensions": [
         "mhutchie.git-graph",
         "eamodio.gitlens",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "Vue.volar"
       ]
     }
   }
