@@ -12,6 +12,16 @@ const { data } = await useAsyncData('blogQuery', () =>
 
 const allBlogs = await queryContent('/blog').find();
 const numberPages = Math.ceil(allBlogs.length / blogsPerPage);
+
+useHead({
+  title: `ブログ | ${currentPage}`,
+  meta: [
+    {
+      name: 'description',
+      content: 'ブログページです',
+    },
+  ],
+});
 </script>
 
 <template>

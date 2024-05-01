@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'コンタクト',
+  meta: [
+    {
+      name: 'description',
+      content: 'コンタクトページです',
+    },
+  ],
+});
+</script>
+
 <template>
   <div>
     <div class="wrapper">

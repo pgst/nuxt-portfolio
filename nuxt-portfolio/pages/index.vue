@@ -1,3 +1,15 @@
+<script setup>
+useHead({
+  title: 'Abe Hiroki Official Site',
+  meta: [
+    {
+      name: 'description',
+      content: 'Abe Hirokiのポートフォリオです',
+    },
+  ],
+});
+</script>
+
 <template>
   <div>
     <div class="hero">
